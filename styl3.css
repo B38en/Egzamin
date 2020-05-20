@@ -1,0 +1,67 @@
+.baner
+{
+    background-color: #00839C;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 80px;
+}
+.menu
+{
+    background-color: #20d9fb;
+    width: 30%;
+    height: 750px;
+    float: left;
+}
+.main
+{
+    background-color: #00bde2;
+    width: 70%;
+    height:750px;
+    float: right;
+}
+.feet
+{
+    background-color: #00839C;
+    color: white;
+    text-align:right;
+}
+.photo
+{
+  
+   
+   margin-right: 30px;
+   border: 2px solid blue;
+   text-align: center;
+   width: fit-content;
+}
+button
+{
+    background-color: blue;
+    color: white;
+   margin: 20px;
+}
+.jpg
+{
+    margin: 30px;
+}
+.form
+{
+    background-color: #00bde2;
+    
+}
+.w
+{
+    background-color: blue;
+    color: white;
+    border: unset;
+    margin: 20px;
+}
+a
+{
+    color: black;
+}
+a:active
+{
+    color:white;
+}

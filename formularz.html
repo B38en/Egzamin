@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<title> Dodaj ogłosznie </title>
+<meta charset="utf-8">
+<link href="styl3.css" rel="stylesheet"> 
+</head>
+<body>
+<div class="baner" >
+    <h1>Portal Ogłoszeniowy</h1>
+</div>
+<div class="menu">
+        <h2>Kategorie</h2>
+        <ol>
+            <li>Książki</li>
+            <li>Muzyka</li>
+            <li>Filmy</li>
+        </ol>
+        <h2>Podkategorie</h2>
+        <ol>
+            <li>Romans</li>
+            <li>Biografia</li>
+            <li>Kryminał</li>
+            <li>Komiks</li>
+        </ol>
+    <div class="photo" > <p class="jpg"><img src="ksiazki.jpg" alt=""></p> </div><br>
+    <a href="kwerenda.txt">Pobierz kwerendę</a>
+</div>
+<div class="main">
+<h2>Anna Kowalska - dodanie ogłoszenia</h2>
+    <form method="POST" action="mailto:tombeb02@wp.pl" >
+        <p>Kategorie:<br>
+        <input type="number">
+        </p>
+        <p>Podkategorie:<br>
+        <input type="number">
+        </p> 
+        <p>Tytuł:<br>
+        <input type="text" maxlength="40">
+        </p>
+        <p>Treść:<br>
+        <textarea name="tresc" rows="10" cols="40"></textarea>
+        </p>  
+         <input class="w" type="reset" value="WYCZYŚĆ">
+         <input class="w" type="submit" value="ZAPISZ">
+         
+    </form>
+</div>
+<div class="feet">
+Portal ogłoszeniowy opracował Tomasz Bębenkowski III INF A
+</div>
+</body>
+</html>
